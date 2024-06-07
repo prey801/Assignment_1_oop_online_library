@@ -1,10 +1,7 @@
-
-
-```markdown
 # Library Management System
 
 ## Overview
-The Library Management System is a C++ application designed to manage a library's book collection and its users. It allows for adding and removing books, managing user accounts, and enabling users to borrow and return books.
+The Library Management System is a C++ application designed to manage a library's book collection and its users. It enables functionalities like adding and removing books, managing user accounts, and allowing users to borrow and return books.
 
 ## Features
 - **Add a Book**: Add new books to the library's collection.
@@ -13,7 +10,6 @@ The Library Management System is a C++ application designed to manage a library'
 - **Manage Users**: Enable users to borrow and return books, and view their borrowed books.
 
 ## Project Structure
-```
 ├── main.cpp
 ├── Book.h
 ├── Book.cpp
@@ -22,7 +18,6 @@ The Library Management System is a C++ application designed to manage a library'
 ├── Library.h
 ├── Library.cpp
 └── README.md
-```
 
 ## Getting Started
 
@@ -66,34 +61,32 @@ The Library Management System is a C++ application designed to manage a library'
 
 ## Example
 Here's an example interaction with the system:
-```
 Library Management System:
-1. Add a book
-2. Remove a book
-3. Search for a book
-4. Manage User
-5. Exit
+
+Add a book
+Remove a book
+Search for a book
+Manage User
+Exit
 Enter your choice: 1
 Enter book title: The Catcher in the Rye
 Enter book author: J.D. Salinger
 Enter book ISBN: 1234567890123
-Book 'The Catcher in the Rye' added successfully.
-
+Book 'The Catcher
 Enter your choice: 4
 Enter username: Alice
 
 User Management Menu:
-1. Borrow a book
-2. Return a book
-3. Show borrowed books
-4. Back to main menu
+
+Borrow a book
+Return a book
+Show borrowed books
+Back to main menu
 Enter your choice: 1
 Enter ISBN of the book to borrow: 1234567890123
 Book 'The Catcher in the Rye' borrowed successfully.
-```
-
-## Clean Up
-To ensure proper memory management, the program cleans up dynamically allocated memory for books and users before exiting.
+## Memory Management
+The program ensures proper memory management by cleaning up dynamically allocated memory for books and users before exiting.
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
@@ -104,6 +97,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 For questions or suggestions, please open an issue in the repository or contact the project maintainer.
 
-```
-
-This README provides an overview, installation instructions, usage guide, and additional information to help users and contributors understand and work with your Library Management System project. Adjust the details (such as the GitHub repository link) according to your specific setup.
